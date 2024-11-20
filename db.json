@@ -1,0 +1,92 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "role": "editor"
+      },
+      {
+        "id": 3,
+        "name": "Sam Wilson",
+        "email": "samwilson@example.com",
+        "role": "user"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "Introduction to JSON",
+        "content": "JSON stands for JavaScript Object Notation...",
+        "authorId": 1,
+        "published": true
+      },
+      {
+        "id": 2,
+        "title": "Understanding REST APIs",
+        "content": "REST APIs are a crucial part of modern web development...",
+        "authorId": 2,
+        "published": true
+      },
+      {
+        "id": 3,
+        "title": "Frontend Frameworks Comparison",
+        "content": "React, Vue, and Angular are popular frontend frameworks...",
+        "authorId": 3,
+        "published": false
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "price": 999.99,
+        "stock": 15,
+        "category": "Electronics"
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 599.99,
+        "stock": 30,
+        "category": "Electronics"
+      },
+      {
+        "id": 3,
+        "name": "Coffee Mug",
+        "price": 14.99,
+        "stock": 50,
+        "category": "Home & Kitchen"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "postId": 1,
+        "content": "Great article on JSON!",
+        "author": "Alice",
+        "timestamp": "2024-11-20T10:00:00Z"
+      },
+      {
+        "id": 2,
+        "postId": 2,
+        "content": "Very informative post on REST APIs.",
+        "author": "Bob",
+        "timestamp": "2024-11-20T12:00:00Z"
+      },
+      {
+        "id": 3,
+        "postId": 3,
+        "content": "Looking forward to reading more about frontend frameworks.",
+        "author": "Charlie",
+        "timestamp": "2024-11-20T14:00:00Z"
+      }
+    ]
+  }
+  
